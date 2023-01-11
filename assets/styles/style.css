@@ -1,0 +1,127 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D4F6CC;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ * {
+    box-sizing: border-box;
+ }
+
+  .jumbotron {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: #4E944F;
+}
+
+ .jumbotron h1 {
+    font-size: 60px;
+    text-shadow: 4px 4px black;
+ }
+
+ h2,h3,h4 {
+    color: #2B7A0B;
+
+}
+
+ .line {
+    line-height: 30px;
+}
+
+#content {
+    float: left;
+    text-align: justify;
+    width: 75%;
+}
+
+nav li {
+    margin-right: 30px;
+    display: inline;
+    list-style-type: none;
+}
+
+nav {
+    background-color: #83BD75;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.card-body img {
+    padding: 3px;
+    width: 250px;
+    float: inline-end;
+}
+
+.card-body h2, .card-body h3 {
+    color: #2B7A0B;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body table {
+    margin-left: 50px;
+}
+
+main {
+    overflow: auto;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+}
+
+header {
+    display: inline;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #4E944F;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    #content {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+}
